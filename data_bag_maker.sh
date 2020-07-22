@@ -28,7 +28,7 @@ You can run \"pwd\" to see what that is if you don't remember.\n\n\
 If your public SSH key was not stored at the default location, replace the contents of \"ssh_keys\" with the the output of:\n\
 \"cat path/to/<publickey>.pub\"\n\n\
 Go through the process to create a PR for the proper staging branch for your team and upload this file to \"devops/data_bags/users\".\n\n\
-If you have any feedback or bug reports, leave an issue or make a PR at: <placeholder>\n"
+If you have any feedback or bug reports, leave an issue or make a PR at: https://github.com/WingofaGriffin/data_bag_maker\n"
 
 # From onboarding gists
 echo '{
