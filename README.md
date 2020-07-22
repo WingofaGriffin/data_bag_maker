@@ -17,6 +17,7 @@ This is an unofficial tool made to let the onboarding process be more streamline
 - As mentioned in the end of the script, if your public key is not the default file location of `~/.ssh/id_rsa.pub`, you will need to change the contents of `"ssh_keys"` to the output of `cat path/to/<publickey>.pub` yourself.
     - I tried making this an option in the script, but ran into issues. Feel free to make a PR including this in.
 - Double check to make sure the JSON file populated correctly and without errors. This is not an official tool, so I will not take responsibility if it does not work as expected.
+    - I did my best to automatically fix case sensitivity in the proper fields, but there are definitely edge cases that still exist. Try not to add extra spaces and other weird characters.
 
 ### Next Steps:
 
